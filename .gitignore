@@ -1,15 +1,15 @@
 # IDE
-.vscode
+.vscode/
 
 # OS
 .DS_Store
 
 # Dependencies
-node_modules
+node_modules/
 
 # Build
-dist
+dist/
+build/
 
-# Sensitive
-config/*.env
-!config/default.env
+# Secrets
+*.env
