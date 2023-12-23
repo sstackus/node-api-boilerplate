@@ -6,7 +6,7 @@ import helmet from 'helmet';
 dotevnv.config();
 
 if (!process.env.PORT) {
-  console.error('No port value specified...');
+  console.error('No port specified...');
 }
 
 const PORT = parseInt(String(process.env.PORT), 10);
